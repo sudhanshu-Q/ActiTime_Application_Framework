@@ -9,18 +9,7 @@
     <parameter name="browser" value="Firefox"/>
     <classes>
       <class name="com.actiTime.test.TC_001_LoginPageTest"/>
+      <class name="com.actiTime.test.TC_002_CreateNewTask"/>
     </classes>
   </test> <!-- Smoke -->
-  <test name="Smoke(failed)">
-    <parameter name="browser" value="Firefox"/>
-    <classes>
-      <class name="com.actiTime.test.TC_001_LoginPageTest">
-        <methods>
-          <include name="loginTest"/>
-          <include name="shutDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.actiTime.test.TC_001_LoginPageTest -->
-    </classes>
-  </test> <!-- Smoke(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->

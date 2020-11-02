@@ -18,7 +18,7 @@ public class CreateNewTask
 		this.driver=rdriver;
 		PageFactory.initElements(rdriver, this);
 	}
-//Elements
+//Elements of create new task page
 	@FindBy(xpath="//*[@href='javascript: openAddNewTasksPopup();'][text()='Create new tasks']")
 	@CacheLookup
 	WebElement createNewTaskLink;
